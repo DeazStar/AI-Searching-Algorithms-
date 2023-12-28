@@ -26,16 +26,6 @@ def bfs(graph, start_node, goal_node):
 
   return []
 
-graph = {
-    'A': ['B', 'C'],
-    'B': ['D', 'E'],
-    'C': ['F', 'G'],
-    'D': [],
-    'E': [],
-    'F': [],
-    'G': [],
-}
-
 start_node = 'A'
 goal_node = 'G'
 result_path = bfs(graph, start_node, goal_node)
