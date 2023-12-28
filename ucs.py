@@ -21,7 +21,7 @@ def ucs(graph, start_node, goal_node):
         paths[edge] = paths[current_element] + [edge]
         heapq.heappush(queue, (new_cost, edge))  # Corrected line
 
-  return 'Path Not Found'
+  return []
 
 # Example usage
 graph = {
