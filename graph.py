@@ -8,3 +8,7 @@ graph = {
   'G': [],
 }
 
+class Edge:
+  def __init__(self, element, cost):
+    self.element = element
+    self.cost = cost
