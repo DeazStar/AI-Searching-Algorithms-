@@ -30,7 +30,7 @@ def a_star_search(graph, start_node, goal_node):
         heapq.heappush(queue, (priority, new_cost, neighbor))
         path[neighbor] = path[current_node] + [neighbor]
 
-  return 'Path Not Found'
+  return []
 
 # Example usage
 graph = {
