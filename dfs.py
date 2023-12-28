@@ -18,6 +18,8 @@ def dfs(graph, start_node, goal_node):
       if neighbor not in visited:
         stack.append(neighbor)
         path[neighbor] = path[current_element] + [neighbor]
+    
+  return []
 
 start_node = 'A'
 goal_node = 'G'
